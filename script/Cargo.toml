@@ -20,7 +20,7 @@ path = "src/bin/keeper_prover.rs"
 # SP1 v6.1.0 (network prover rejects older tags).
 sp1-sdk = { git = "https://github.com/succinctlabs/sp1.git", tag = "v6.1.0", package = "sp1-sdk", features = ["network"] }
 # Keep alloy 1.0.x line aligned (macro/trait mismatch if signer drifts to 1.8.x).
-alloy-signer = "=1.0.29"
+alloy-signer = "=1.0.30"
 alloy-tx-macros = "=1.0.30"
 sp1-verifier = { git = "https://github.com/succinctlabs/sp1.git", tag = "v6.1.0", package = "sp1-verifier", features = ["ark"] }
 ark-bn254 = "0.5.0"
