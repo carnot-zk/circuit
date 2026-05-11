@@ -40,7 +40,7 @@ cargo build --release --bin keeper-prover
 # Binary lands at: target/release/keeper-prover
 ```
 
-Point `SP1_PROVER_BINARY` in `carnot-keeper/.env` at this path.
+Point `SP1_PROVER_BINARY` in `keeper/.env` at this path.
 
 ## Verification key
 
@@ -53,7 +53,7 @@ Prints the SP1 verification key that must match the value stored in the `carnot_
 ## Docker (prover image)
 
 ```sh
-docker build -f Dockerfile.prover -t carnot-prover .
+docker build -t carnot-prover .
 ```
 
 ## Circuit public outputs
